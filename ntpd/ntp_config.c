@@ -4363,7 +4363,7 @@ config_remotely(
 	cfgt.timestamp = time(NULL);
 	cfgt.source.value.s = estrdup(stoa(remote_addr));
 
-	DPRINTF(1, ("Finished Parsing!!\n"));
+	DPRINTF(1, ("Configuration parse completed.\n"));
 
 	save_and_apply_config_tree();
 
