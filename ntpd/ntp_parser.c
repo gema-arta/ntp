@@ -2089,6 +2089,7 @@ yyreduce:
 				ip_file->err_line_no,
 				ip_file->err_col_no);
 		}
+		exit(EINVAL);
 #line 2093 "../../ntpd/ntp_parser.c" /* yacc.c:1646  */
     break;
 
