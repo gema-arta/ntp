@@ -6,9 +6,15 @@ Vagrantfile
 *.lo
 *.so
 */.deps-ver
+*/.deps/*
+*.8
+*.5
+config.log
+*.Plo
 
 */*/config.log
 */.version
+*/version.c
 
 */check-*
 sntp/*
@@ -22,6 +28,8 @@ ntpdc/ntpdc
 ntpdc/ntpdc-layout
 ntpq/ntpq
 scripts/ntpsweep/ntpsweep.1
+scripts/calc_tickadj/calc_tickadj.
+ntpsnmpd/ntpsnmpd
 util/ntp-keygen
 util/ntptime
 util/tickadj
