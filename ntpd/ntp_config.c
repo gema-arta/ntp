@@ -4458,7 +4458,7 @@ getconfig(
 #endif
 	yyparse(fp[curr_include_level]);
 
-	DPRINTF(1, ("Finished Parsing!!\n"));
+	DPRINTF(1, ("Configuration parse completed.\n"));
 
 	cfgt.source.attr = CONF_SOURCE_FILE;
 	cfgt.timestamp = time(NULL);
